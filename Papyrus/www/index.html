@@ -10,16 +10,45 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
     <title>Papyrus</title>
 
+    <!--JQuery references-->
+    <script src="scripts/3rdParty/jquery.min.js"></script>
+
+    <!--JQuery-Mobile references-->
+    <script src="scripts/3rdParty/jquery.mobile-1.4.5.min.js"></script>
+    <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <link href="css/jquery.mobile.squareui.css" rel="stylesheet" />
+    
+
+    <!-- Angular references-->
+    <script src="scripts/3rdParty/angular.min.js"></script>
+
     <!-- Papyrus references -->
     <link href="css/index.css" rel="stylesheet" />
 </head>
 <body>
-    <p>Hello, your application is ready!</p>
+    
+    <div data-role="page">
+
+        <div data-role="header">
+            <h1>Welcome To My Homepage</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>I Am Now A Mobile Developer!!</p>
+        </div>
+
+        <div data-role="footer">
+            <h1>Footer Text</h1>
+        </div>
+
+    </div>
 
     <!-- Cordova reference, this is added to your app when it's built. -->
     <script src="cordova.js"></script>
     <script src="scripts/platformOverrides.js"></script>
 
     <script src="scripts/index.js"></script>
+
+    
 </body>
 </html>
