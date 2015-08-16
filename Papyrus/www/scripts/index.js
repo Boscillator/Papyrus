@@ -23,3 +23,7 @@
         // TODO: This application has been reactivated. Restore application state here.
     };
 })();
+
+var PASTEBIN_post_url = "http://pastebin.com/api/api_post.php";
+//var PASTEBIN_post_url = 'http://requestb.in/1i8g1sw1';
+var PASTEBIN_dev_key = "4b51954baacc018058ec527a11815644";
